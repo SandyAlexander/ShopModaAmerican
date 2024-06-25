@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Imagen del producto -->
+    <ImageView
+        android:id="@+id/image_producto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image"
+         />
+
+    <!-- Nombre del producto -->
+    <TextView
+        android:id="@+id/text_view_nombre_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del Producto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp" />
+
+    <!-- Precio del producto -->
+    <TextView
+        android:id="@+id/text_view_precio_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio: $0.00"
+        android:textSize="14sp"
+        android:paddingTop="4dp" />
+
+    <!-- Descripción del producto -->
+    <TextView
+        android:id="@+id/text_descripcion_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descripción del producto..."
+        android:textSize="14sp"
+        android:paddingTop="4dp" />
+    <!-- Botón Agregar al Carrito -->
+    <Button
+        android:id="@+id/btn_agregar_carrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar al Carrito"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
