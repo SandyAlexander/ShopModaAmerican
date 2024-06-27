@@ -6,15 +6,25 @@
     android:padding="8dp">
 
     <!-- Imagen del producto -->
+<<<<<<< HEAD
 
     <!-- Nombre del producto -->
+=======
+>>>>>>> c0ad44675f2b48b5ec8b50696267cbffd176da5c
     <ImageView
         android:id="@+id/image_producto"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
+<<<<<<< HEAD
         android:src="@drawable/placeholder_image" />
 
+=======
+        android:src="@drawable/placeholder_image"
+         />
+
+    <!-- Nombre del producto -->
+>>>>>>> c0ad44675f2b48b5ec8b50696267cbffd176da5c
     <TextView
         android:id="@+id/text_view_nombre_producto"
         android:layout_width="match_parent"

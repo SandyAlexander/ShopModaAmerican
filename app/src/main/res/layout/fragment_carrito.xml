@@ -29,11 +29,20 @@
         android:id="@+id/btn_finalizar_compra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:paddingHorizontal="16dp"
         android:paddingVertical="8dp"
         android:text="Finalizar Compra"
         android:textColor="@android:color/white" />
+=======
+        android:text="Finalizar Compra"
+        android:layout_gravity="center"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp" />
+>>>>>>> c0ad44675f2b48b5ec8b50696267cbffd176da5c
 
 </LinearLayout>

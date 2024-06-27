@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categoriasFragment">
+
+    <fragment
+        android:id="@+id/categoriasFragment"
+        android:name="com.example.tienda.categorias.view.CategoriasFragment"
+        android:label="CategoriasFragment"
+        tools:layout="@layout/fragment_categorias">
+
+        <action
+            android:id="@+id/action_categoriasFragment_to_productosPorCategoriaFragment"
+            app:destination="@id/productosPorCategoriaFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productosPorCategoriaFragment"
+        android:name="com.example.tienda.productosporcategoria.view.ProductosPorCategoriaFragment"
+        android:label="ProductosPorCategoriaFragment"
+        tools:layout="@layout/fragment_productos_por_categoria">
+
+        <argument
+            android:name="categoriaId"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

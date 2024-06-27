@@ -1,7 +1,11 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">ShoptModaAmerican</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="precio_producto">$ %1$.2f</string>
+=======
+    <string name="app_name">tienda</string>
+>>>>>>> c0ad44675f2b48b5ec8b50696267cbffd176da5c
 </resources>

@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+<<<<<<< HEAD
 
 }
 
@@ -10,6 +11,16 @@ android {
 
     defaultConfig {
         applicationId = "com.example.shoptmodaamerican"
+=======
+}
+
+android {
+    namespace = "com.example.tienda"
+    compileSdk = 34
+
+    defaultConfig {
+        applicationId = "com.example.tienda"
+>>>>>>> c0ad44675f2b48b5ec8b50696267cbffd176da5c
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -34,6 +45,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+<<<<<<< HEAD
     buildFeatures {
         viewBinding = true
     }
@@ -58,9 +70,29 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation ("com.github.bumptech.glide:glide:4.12.0")
+=======
+}
+
+dependencies {
+    implementation ("androidx.appcompat:appcompat:1.2.0")
+    implementation ("com.google.android.material:material:1.2.1")
+    implementation ("androidx.constraintlayout:constraintlayout:2.0.4")
+    implementation ("androidx.drawerlayout:drawerlayout:1.1.1")
+    implementation ("com.github.bumptech.glide:glide:4.12.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.navigation.fragment.ktx)
+>>>>>>> c0ad44675f2b48b5ec8b50696267cbffd176da5c
     implementation(libs.androidx.navigation.ui.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+<<<<<<< HEAD
     implementation(kotlin("script-runtime"))
+=======
+>>>>>>> c0ad44675f2b48b5ec8b50696267cbffd176da5c
 }
